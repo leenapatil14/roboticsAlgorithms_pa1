@@ -1,0 +1,6 @@
+<launch>
+  <node type="stageros" name="stage_sim" pkg="stage_ros" args="-d $(find ros_pa1)/world/playground.world" />
+
+  <node type="homing_beacon.py" name="homing_beacon" pkg="ros_pa1"/>
+
+</launch>
