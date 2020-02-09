@@ -11,3 +11,7 @@ A 2 wheeled robot is equipped with a 2D laser range finder in order to detect ob
 2. Used the data to determine obstacles in front of the robot.
 3. If Obstacles are found, implemented BUG-2 Algorithm to redirect the robot's pose.
 4. Made the robot reach it's desired goal position.
+
+
+##### Issues:
+Robot keeps on moving along the obstacle. unable to make it leave the loop.
